@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tab switch</title>
+	<style>
+		*{margin: 0;padding: 0;}
+		li{
+			list-style: none;
+		}
+		li.active{
+			background-color: pink;
+		}
+		div.active{
+			background-color: #e9e9e9;
+		}
+	</style>
+</head>
+<body>
+	<ul id="tabs">
+		<li data-tab="users">Users</li>
+		<li data-tab="groups">Groups</li>
+	</ul>
+
+	<div id="tabsContent">
+		<div data-tab="users">1lalalal</div>
+		<div data-tab="groups">2lalalal</div>
+	</div>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="t.js"></script>
+</body>
+</html>
